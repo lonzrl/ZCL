@@ -37,7 +37,8 @@ java --version    # 应显示17.0+
 
 安装步骤
 方式 1：源码安装
-安装jdk_21.0.9.exe   （启动MC需要的java）
+
+安装jdk_21.0.9.exe   （启动MC需要的java，在Release）
 # 克隆仓库
 
 cd ZCL
@@ -50,7 +51,8 @@ python ZCL.py
 
 方式 2：预构建版本
 前往 Releases 页面 下载对应系统的可执行文件：
-Windows：ZCL.exe（无需 Python 环境）
+Windows：dist/ZCL.exe（无需 Python 环境）
+同时安装jdk_21.0.9.exe
 📖 使用指南
 首次启动配置
 
